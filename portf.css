@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(83, 91, 83);
+    background-color:rgb(203, 209, 150);
     background-size: cover; 
     background-repeat: no-repeat; 
   }
@@ -31,7 +31,7 @@ body {
 
   .left-aligned-text {
     text-align: left; 
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(49, 47, 47, 0.7); 
     padding: 20px;
     border-radius: 20px;
   }
@@ -51,10 +51,17 @@ body {
       font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   }
   #ffont {
-    color: #753c3c;
+    color: #f8f7f7;
     text-rendering: optimizelegibility;
     font-weight: 550;
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  }
+  #mm {
+    font-family: "proxima nova bold", Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #080808;
+text-align:center;
+margin-bottom: 40px; /* Add space between each card */
+
   }
   footer {
         background-color: rgba(238, 166, 103, 0.7); 
@@ -83,4 +90,6 @@ body {
   transition: transform 0.3s ease;
 }
 
-
+.card{
+  padding: "10px";
+}
